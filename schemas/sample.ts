@@ -11,8 +11,8 @@ export const sample = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'image',
-      title: 'Image',
+      name: 'content',
+      title: 'Content',
       type: 'array',
       of: [{ type: 'block' }, { type: 'imageBlock' }],
     }),

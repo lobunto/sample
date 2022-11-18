@@ -18,5 +18,10 @@ export const imageBlock = defineType({
         hotspot: true,
       },
     }),
+    defineField({
+      name: 'altText',
+      title: 'Alternative text',
+      type: 'string',
+    }),
   ],
 });
